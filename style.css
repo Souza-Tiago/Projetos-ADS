@@ -41,3 +41,37 @@ p {
     font-weight: bold;
     display: inline-block;
 }
+
+.interaction-area {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-like {
+    background-color: #8257e5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn-like:hover {
+    background-color: #9466ff;
+}
+
+.btn-like:active {
+    transform: scale(0.95);
+}
+
+.counter {
+    font-size: 1.1rem;
+    color: #a8a8b3;
+    font-weight: 500;
+}
